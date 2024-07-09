@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  :root{
+    --marble-white: #F0F0F0;
+    --crimson-red: #990000;
+    --dark-gray:  #333;
+    --rich-gold: #D4AF37;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--marble-white);
+    font-family: Verdana, Helvetica;
+    color: var(--dark-gray);
+  }
+  
+  button{
+    background-color: var(--rich-gold);
+    border: 0;
+  }
+  
+  .hidden{
+    display: none;
+  }
+  
+  #output{
+    margin: 2rem;
+    border: 1px solid var(--rich-gold);
+    padding: 1rem;
+  }
+  
